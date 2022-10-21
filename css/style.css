@@ -122,3 +122,29 @@ a {
     padding: 10px 34px;
     font-weight: bold;
 }
+#spotlight {
+    background: url(../Assets/Landing-pic.jpg) no-repeat;
+    padding-top: 120px;
+    height: 600px;
+    background-size: 485px;
+    background-position: right 240px bottom 80px;
+}
+
+/* #spotlight section.wrapper {
+    height: 100vh;
+    background-image: url(../Assets/Landing-pic.jpg);
+} */
+#spotlight section.wrapper section.left h2 {
+    font-size: 50px;
+    width: 30%;
+    font-weight: 500;
+}
+#spotlight section.wrapper section.left h4 {
+    font-size: 44px;
+    font-weight: bold;
+}
+#spotlight section.wrapper section.left ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
