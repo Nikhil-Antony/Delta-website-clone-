@@ -26,8 +26,8 @@ a {
 }
 @font-face {
     font-family: "Poppins";
-    src: url("Poppins-Medium.woff2") format("woff2"),
-        url("Poppins-Medium.woff") format("woff");
+    src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
+        url("../fonts/Poppins-Medium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -35,8 +35,8 @@ a {
 
 @font-face {
     font-family: "Poppins";
-    src: url("Poppins-Light.woff2") format("woff2"),
-        url("Poppins-Light.woff") format("woff");
+    src: url("../fonts/Poppins-Light.woff2") format("woff2"),
+        url("../fonts/Poppins-Light.woff") format("woff");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -44,8 +44,8 @@ a {
 
 @font-face {
     font-family: "Poppins";
-    src: url("Poppins-Bold.woff2") format("woff2"),
-        url("Poppins-Bold.woff") format("woff");
+    src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
+        url("../fonts/Poppins-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -53,8 +53,8 @@ a {
 
 @font-face {
     font-family: "Poppins";
-    src: url("Poppins-Regular.woff2") format("woff2"),
-        url("Poppins-Regular.woff") format("woff");
+    src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
+        url("../fonts/Poppins-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -62,11 +62,19 @@ a {
 
 @font-face {
     font-family: "Poppins";
-    src: url("Poppins-SemiBoldItalic.woff2") format("woff2"),
-        url("Poppins-SemiBoldItalic.woff") format("woff");
+    src: url("../fonts/Poppins-SemiBoldItalic.woff2") format("woff2"),
+        url("../fonts/Poppins-SemiBoldItalic.woff") format("woff");
     font-weight: 600;
     font-style: italic;
     font-display: swap;
+}
+body {
+    font-family: "Poppins";
+    font-size: 17px;
+    color: #000;
+    overflow-x: hidden;
+    min-width: 320px;
+    font-weight: 500;
 }
 
 #home {
@@ -75,7 +83,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 50px 0 50px;
+    /* margin: 0 50px 0 50px; */
     height: 100px;
 }
 #home header div.left h1 a span {
@@ -129,6 +137,9 @@ a {
     background-size: 485px;
     background-position: right 240px bottom 80px;
 }
+#spotlight section.wrapper section.left {
+    margin-right: 10px;
+}
 
 /* #spotlight section.wrapper {
     height: 100vh;
@@ -136,15 +147,39 @@ a {
 } */
 #spotlight section.wrapper section.left h2 {
     font-size: 50px;
-    width: 30%;
+    width: 35%;
     font-weight: 500;
+    line-height: 50px;
+    margin-bottom: 35px;
 }
 #spotlight section.wrapper section.left h4 {
-    font-size: 44px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 500;
+    width: 31%;
+    margin-bottom: 25px;
 }
 #spotlight section.wrapper section.left ul {
     display: flex;
     align-items: center;
-    justify-content: center;
+    width: fit-content;
+    /* justify-content: center;
+    */
+}
+#spotlight section.wrapper section.left ul li {
+    /* display: flex;
+    align-items: center; */
+}
+#spotlight section.wrapper section.left ul li a {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+#spotlight section.wrapper section.left ul li a.button {
+    display: inline-block;
+    background: black;
+    color: #fff;
+    padding: 10px 26px;
+    border-radius: 3px;
 }
