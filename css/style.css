@@ -134,11 +134,11 @@ body {
     background: url(../Assets/Landing-pic.jpg) no-repeat;
     padding-top: 120px;
     height: 600px;
-    background-size: 485px;
-    background-position: right 240px bottom 80px;
+    background-size: 550px;
+    background-position: right 242px bottom 40px;
 }
 #spotlight section.wrapper section.left {
-    margin-right: 10px;
+    margin-left: 40px;
 }
 
 /* #spotlight section.wrapper {
@@ -156,30 +156,31 @@ body {
     font-size: 18px;
     font-weight: 500;
     width: 31%;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 #spotlight section.wrapper section.left ul {
     display: flex;
     align-items: center;
     width: fit-content;
-    /* justify-content: center;
-    */
+    justify-content: space-between;
+    width: 30%;
 }
 #spotlight section.wrapper section.left ul li {
-    /* display: flex;
-    align-items: center; */
+}
+#spotlight section.wrapper section.left ul li:nth-child(3) {
+    width: 15%;
 }
 #spotlight section.wrapper section.left ul li a {
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 600;
-    margin-right: 30px;
-    margin-top: 20px;
 }
 #spotlight section.wrapper section.left ul li a.button {
     display: inline-block;
     background: black;
     color: #fff;
-    padding: 10px 26px;
+    padding: 8px 32px;
     border-radius: 3px;
+    font-weight: 500;
+}
+#spotlight section.wrapper section.left ul li a img.play-button {
+    width: 100%;
+    display: block;
 }
