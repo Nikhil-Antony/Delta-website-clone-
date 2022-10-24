@@ -310,3 +310,9 @@ body {
     color: #000;
     text-align: center;
 }
+#services {
+}
+#services section.wrapper section.top h3 {
+    font-size: 28px;
+    color: gray;
+}
