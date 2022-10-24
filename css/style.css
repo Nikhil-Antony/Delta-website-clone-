@@ -83,7 +83,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 0 50px 0 50px; */
+
     height: 100px;
 }
 #home header div.left h1 a span {
@@ -145,10 +145,6 @@ body {
     margin-left: 40px;
 }
 
-/* #spotlight section.wrapper {
-    height: 100vh;
-    background-image: url(../Assets/Landing-pic.jpg);
-} */
 #spotlight section.wrapper section.left h2 {
     font-size: 54px;
     width: 35%;
@@ -165,7 +161,7 @@ body {
 #spotlight section.wrapper section.left ul {
     display: flex;
     align-items: center;
-    /* width: fit-content; */
+
     justify-content: space-between;
     width: 31%;
 }
@@ -228,20 +224,94 @@ body {
 }
 #about section.wrapper h3 {
     color: gray;
+    font-size: 25px;
+    font-weight: 500;
 }
 #about section.wrapper h2 {
-    font-size: 37px;
+    font-size: 38px;
     margin-top: 34px;
-    line-height: 54px;
+    line-height: 58px;
     font-weight: 600;
-    width: 43%;
+    width: 44%;
 }
 #about section.wrapper div.box {
     display: flex;
+    justify-content: space-between;
 }
 #about section.wrapper div.box div.left {
-    width: 45%;
+    display: block;
+    width: 100%;
+}
+#about section.wrapper div.box div.left div.image {
+    width: 86%;
+    margin-top: 40px;
+}
+#about section.wrapper div.box div.left img {
+    /* max-width: 560px;
+    border-radius: 12px;
+    margin-top: 40px;
+    margin-right: 40px; */
+    display: inline-block;
+    width: 100%;
+    border-radius: 12px;
 }
 #about section.wrapper div.box div.right {
-    width: 45%;
+    width: 80%;
+    display: block;
+}
+#about section.wrapper div.box div.right p {
+    font-size: 19px;
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+#about section.wrapper div.box div.right ul {
+}
+
+#about section.wrapper div.box div.right ul li {
+    line-height: 45px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#about section.wrapper div.box div.right ul li img {
+    width: 100%;
+    display: block;
+}
+#about section.wrapper div.box div.right ul li span {
+    display: inline-block;
+    margin-right: 20px;
+    width: 22px;
+}
+#about section.wrapper div.box div.right div.green-box {
+    display: flex;
+    justify-content: space-between;
+    background: #d5fa52;
+    position: absolute;
+    align-items: center;
+    width: 44%;
+    border-radius: 10px;
+    height: 18%;
+    bottom: 0px;
+    left: 671px;
+}
+#about section.wrapper div.box div.right div.green-box div.item {
+    margin: 0 auto;
+    border-right: 1px solid #000;
+    padding: 20px;
+}
+#about section.wrapper div.box div.right div.green-box div.item:last-child {
+    border: none;
+}
+#about section.wrapper div.box div.right div.green-box div.item h3 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}
+#about section.wrapper div.box div.right div.green-box div.item h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
 }
