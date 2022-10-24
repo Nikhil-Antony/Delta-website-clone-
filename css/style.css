@@ -427,3 +427,7 @@ body {
     padding: 10px 34px;
     font-weight: bold;
 }
+#pricing {
+    background: #fffcf3;
+    height: 100vh;
+}
