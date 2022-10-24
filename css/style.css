@@ -339,7 +339,7 @@ body {
     border-radius: 4px;
     padding: 2%;
 }
-#services section.wrapper section.middle div.service div.image1 {
+/* #services section.wrapper section.middle div.service div.image1 {
     border: 1px solid black;
     background: #000;
     height: 34%;
@@ -354,7 +354,7 @@ body {
     background: bisque;
     height: 36%;
     width: 14%; */
-    /* display: flex;
+/* display: flex;
   
     background: white;
     border-radius: 10px;
@@ -362,15 +362,15 @@ body {
     filter: invert(1);
     height: 34%;
     width: 27%; */
-    display: flex;
+/* display: flex;
     background: white;
     border-radius: 44px;
     width: 27px;
     filter: invert(1);
     width: 30px;
     border: 1px solid #fff;
-}
-#services section.wrapper section.middle div.service h2 {
+} */
+*/ #services section.wrapper section.middle div.service h2 {
     font-weight: 600;
     margin-top: 10px;
 
@@ -404,4 +404,26 @@ body {
     display: block;
 
     transform: scaleY(1);
+}
+#services section.wrapper section.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#services section.wrapper section.bottom h4 {
+    font-weight: 600;
+    font-size: 26px;
+    width: 40%;
+}
+#services section.wrapper section.bottom a {
+    width: 16%;
+    height: 48px;
+}
+#services section.wrapper section.bottom a.button {
+    display: inline-block;
+    background: black;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px 34px;
+    font-weight: bold;
 }
