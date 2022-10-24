@@ -286,8 +286,8 @@ body {
     align-items: center;
     width: 44%;
     border-radius: 10px;
-    height: 18%;
-    bottom: 0px;
+    height: 16%;
+    bottom: 17px;
     left: 671px;
 }
 #about section.wrapper div.box div.right div.green-box div.item {
@@ -315,4 +315,93 @@ body {
 #services section.wrapper section.top h3 {
     font-size: 28px;
     color: gray;
+    margin-top: 30px;
+}
+#services section.wrapper section.top h2 {
+    font-size: 36px;
+    font-weight: 600;
+    width: 20%;
+    margin-top: 26px;
+}
+#services section.wrapper section.middle {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+#services section.wrapper section.middle div.service {
+    /* height: 100%; */
+    display: block;
+    border: 2px solid gray;
+    width: 30%;
+
+    margin-bottom: 30px;
+    border-radius: 4px;
+    padding: 2%;
+}
+#services section.wrapper section.middle div.service div.image1 {
+    border: 1px solid black;
+    background: #000;
+    height: 34%;
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+#services section.wrapper section.middle div.service img.web-development {
+    /* border: 1px solid #ffff;
+    background: bisque;
+    height: 36%;
+    width: 14%; */
+    /* display: flex;
+  
+    background: white;
+    border-radius: 10px;
+    width: 25px;
+    filter: invert(1);
+    height: 34%;
+    width: 27%; */
+    display: flex;
+    background: white;
+    border-radius: 44px;
+    width: 27px;
+    filter: invert(1);
+    width: 30px;
+    border: 1px solid #fff;
+}
+#services section.wrapper section.middle div.service h2 {
+    font-weight: 600;
+    margin-top: 10px;
+
+    font-size: 20px;
+}
+#services section.wrapper section.middle div.service p {
+    font-size: 18px;
+    margin: 15px 0px 13px 0px;
+    font-weight: 500;
+}
+#services section.wrapper section.middle div.service a {
+    margin-bottom: 30px;
+}
+#services section.wrapper section.middle div.service a.button {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+/* #services section.wrapper section.middle:hover div.service {
+    display: block;
+    border: 2px solid gray;
+    width: 30%;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    padding: 2%;
+    background: yellowgreen;
+} */
+#services section.wrapper section.middle div.service:hover {
+    background-color: yellowgreen;
+    /* width: 28%; */
+    display: block;
+
+    transform: scaleY(1);
 }
