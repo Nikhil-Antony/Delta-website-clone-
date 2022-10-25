@@ -751,8 +751,82 @@ body {
     color: grey;
 } */
 #contact {
+    height: 100vh;
+    /* display: flex;
+    justify-content: space-between; */
 }
 #contact section.wrapper {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
+}
+#contact section.wrapper section.left span img {
+    width: 78%;
+    display: inline-block;
+    /* height: 30%; */
+    margin-top: 63px;
+}
+#contact section.wrapper section.right div.top h4 {
+    color: gray;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#contact section.wrapper section.right div.top h2 {
+    width: 48%;
+    font-size: 33px;
+    font-weight: 500;
+}
+#contact section.wrapper section.right div.middle {
+    display: flex;
+
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 10px;
+}
+
+#contact section.wrapper section.right div.middle ul {
+    margin-right: 96px;
+}
+#contact section.wrapper section.right div.middle ul li {
+    line-height: 33px;
+}
+#contact section.wrapper section.right div.middle ul li p {
+    color: gray;
+}
+#contact section.wrapper section.right div.bottom h5 {
+    font-size: 16px;
+    color: gray;
+    margin-top: 10px;
+}
+#contact section.wrapper section.right div.bottom div.details ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+#contact section.wrapper section.right div.bottom div.details ul li {
+    border-bottom: 1px solid #000;
+    width: 47%;
+}
+#contact section.wrapper section.right div.bottom div.one {
+    margin-top: 10px;
+}
+#contact section.wrapper section.right div.bottom div.one ul li {
+    border-bottom: 1px solid #000;
+    width: 100%;
+    height: 38px;
+}
+#contact section.wrapper section.right div.bottom div.one a {
+    display: block;
+    text-align: right;
+    background: black;
+    color: #fff;
+    border-radius: 3px;
+    padding: 13px 52px;
+    font-weight: bold;
+    margin-left: 60%;
+    margin-top: 23px;
+}
+#contact section.wrapper section.right {
+    margin-right: 60px;
 }
