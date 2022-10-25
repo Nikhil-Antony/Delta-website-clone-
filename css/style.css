@@ -856,20 +856,32 @@ body {
     font-weight: 500;
     font-size: 28px;
     color: white;
+    margin-top: 10px;
 }
 #community section.wrapper div.details p {
     color: white;
     font-size: 11px;
     margin-top: 30px;
 }
-#community section.wrapper div.details a.button {
+#community section.wrapper div.details form {
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+}
+#community section.wrapper div.details form input {
     border: 1px solid gray;
     color: gray;
+    border-radius: 24px;
+    padding: 14px 23px;
+    font-weight: bold;
+    width: 27%;
 }
-#community section.wrapper div.details a button {
+#community section.wrapper div.details form button {
     display: block;
     background: #d5fa52;
     font-weight: bold;
     border-radius: 31px;
     padding: 15px 45px;
+    position: absolute;
+    margin-left: 162px;
 }
