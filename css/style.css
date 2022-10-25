@@ -483,16 +483,19 @@ body {
     background: #fff;
     color: grey;
     width: 22%;
+    border-radius: 10px;
 }
 #pricing section.wrapper section.top div.plans div.professional {
     background: #fff;
     color: grey;
     width: 22%;
+    border-radius: 10px;
 }
 #pricing section.wrapper section.top div.plans div.ultimate {
     background: #fff;
     color: grey;
     width: 22%;
+    border-radius: 10px;
 }
 
 #pricing section.wrapper section.top div.plans h3 {
@@ -552,4 +555,105 @@ body {
     padding: 4;
     padding: 5%;
     border-radius: 1px;
+}
+#pricing section.wrapper section.top div.plans div.basic:hover {
+    background: #000;
+}
+#pricing section.wrapper section.top div.plans div.basic:hover h3 {
+    color: #fff;
+}
+#pricing
+    section.wrapper
+    section.top
+    div.plans
+    div.basic:hover
+    div.amount
+    div.amount-per-month {
+    color: #fff;
+}
+#pricing
+    section.wrapper
+    section.top
+    div.plans
+    div.basic:hover
+    div.offer-percentage
+    button {
+    background: #fff;
+}
+#pricing
+    section.wrapper
+    section.top
+    div.plans
+    div.basic:hover
+    a.choose-plan
+    button {
+    background-color: #d5fa52;
+}
+
+#pricing section.wrapper section.top div.plans div.professional:hover {
+    background: #000;
+}
+#pricing section.wrapper section.top div.plans div.professional:hover h3 {
+    color: #fff;
+}
+#pricing
+    section.wrapper
+    section.top
+    div.plans
+    div.professional:hover
+    div.amount
+    div.amount-per-month {
+    color: #fff;
+}
+#pricing
+    section.wrapper
+    section.top
+    div.plans
+    div.professional:hover
+    div.offer-percentage
+    button {
+    background: #fff;
+}
+#pricing
+    section.wrapper
+    section.top
+    div.plans
+    div.professional:hover
+    a.choose-plan
+    button {
+    background-color: #d5fa52;
+}
+
+#pricing section.wrapper section.top div.plans div.ultimate:hover {
+    background: #000;
+}
+#pricing section.wrapper section.top div.plans div.ultimate:hover h3 {
+    color: #fff;
+}
+#pricing
+    section.wrapper
+    section.top
+    div.plans
+    div.ultimate:hover
+    div.amount
+    div.amount-per-month {
+    color: #fff;
+}
+#pricing
+    section.wrapper
+    section.top
+    div.plans
+    div.ultimate:hover
+    div.offer-percentage
+    button {
+    background: #fff;
+}
+#pricing
+    section.wrapper
+    section.top
+    div.plans
+    div.ultimate:hover
+    a.choose-plan
+    button {
+    background-color: #d5fa52;
 }
