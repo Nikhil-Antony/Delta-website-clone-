@@ -657,8 +657,96 @@ body {
     button {
     background-color: #d5fa52;
 }
-#testimonials{
+#testimonials {
     height: 100vh;
-
 }
-
+#testimonials section.top h3 {
+    color: gray;
+    margin-top: 145px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#testimonials section.top p {
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 115px;
+}
+#testimonials section.middle {
+    display: flex;
+    width: 88%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+#testimonials section.middle div {
+    margin: 0 auto;
+    margin-right: 10px;
+}
+#testimonials section.middle div ul {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 88px;
+    margin-bottom: 70px;
+}
+#testimonials section.middle div ul li img {
+    border-radius: 50%;
+    border: 1px solid #d5fa52;
+    padding: 9px;
+}
+#testimonials section.middle div ul li img {
+    width: 100%;
+    display: block;
+}
+#testimonials section.middle div ul li h3 {
+    font-weight: bold;
+}
+#testimonials section.middle div ul li p {
+    color: grey;
+}
+/* #testimonials section.middle div.stripe {
+}
+#testimonials section.middle div.stripe ul {
+    display: flex;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 88px;
+    margin-bottom: 70px;
+}
+#testimonials section.middle div.stripe ul li.stripe-one {
+    border-radius: 50%;
+    border: 1px solid #d5fa52;
+    padding: 9px;
+}
+#testimonials section.middle div.stripe ul li h3 {
+    font-weight: bold;
+}
+#testimonials section.middle div.stripe ul li p {
+    color: grey;
+}
+#testimonials section.middle div.payoneer {
+}
+#testimonials section.middle div.payoneer ul {
+    display: flex;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 88px;
+    margin-bottom: 70px;
+}
+#testimonials section.middle div.payoneer ul li.payoneer-one {
+    border-radius: 50%;
+    border: 1px solid #d5fa52;
+    padding: 9px;
+}
+#testimonials section.middle div.payoneer ul li h3 {
+    font-weight: bold;
+}
+#testimonials section.middle div.payoneer ul li p {
+    color: grey;
+} */
