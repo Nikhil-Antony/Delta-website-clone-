@@ -885,3 +885,6 @@ body {
     position: absolute;
     margin-left: 162px;
 }
+#footer {
+    height: 100vh;
+}
