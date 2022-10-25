@@ -822,7 +822,7 @@ body {
     background: black;
     color: #fff;
     border-radius: 3px;
-    padding: 13px 52px;
+    padding: 15px 45px;
     font-weight: bold;
     margin-left: 60%;
     margin-top: 23px;
@@ -830,3 +830,4 @@ body {
 #contact section.wrapper section.right {
     margin-right: 60px;
 }
+#community
