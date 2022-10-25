@@ -338,6 +338,7 @@ body {
     margin-bottom: 30px;
     border-radius: 4px;
     padding: 2%;
+    transition: transform 500ms;
 }
 /* #services section.wrapper section.middle div.service div.image1 {
     border: 1px solid black;
@@ -402,8 +403,7 @@ body {
     background-color: yellowgreen;
     /* width: 28%; */
     display: block;
-
-    transform: scaleY(1);
+    transform: translateY(-30px);
 }
 #services section.wrapper section.bottom {
     display: flex;
@@ -484,18 +484,21 @@ body {
     color: grey;
     width: 22%;
     border-radius: 10px;
+    padding-bottom: 20px;
 }
 #pricing section.wrapper section.top div.plans div.professional {
     background: #fff;
     color: grey;
     width: 22%;
     border-radius: 10px;
+    padding-bottom: 20px;
 }
 #pricing section.wrapper section.top div.plans div.ultimate {
     background: #fff;
     color: grey;
     width: 22%;
     border-radius: 10px;
+    padding-bottom: 20px;
 }
 
 #pricing section.wrapper section.top div.plans h3 {
@@ -678,6 +681,7 @@ body {
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+    gap: 68px;
 }
 #testimonials section.middle div {
     margin: 0 auto;
@@ -705,6 +709,7 @@ body {
 }
 #testimonials section.middle div ul li p {
     color: grey;
+    font-size: 13px;
 }
 /* #testimonials section.middle div.stripe {
 }
@@ -751,9 +756,10 @@ body {
     color: grey;
 } */
 #contact {
-    height: 100vh;
+    /* height: 100vh; */
     /* display: flex;
     justify-content: space-between; */
+    padding-bottom: 40px;
 }
 #contact section.wrapper {
     display: flex;
@@ -831,11 +837,12 @@ body {
     margin-right: 60px;
 }
 #community {
-    height: 100vh;
+    /* height: 100vh; */
     background: #fffcf3;
     margin: 0 auto;
     display: flex;
     align-items: center;
+    padding: 124px 0px;
 }
 #community section.wrapper {
     background: black;
@@ -849,11 +856,13 @@ body {
     align-items: center; */
     text-align: center;
     /* margin: 0 auto; */
+    height: 353px;
+    padding: 50px;
 }
 #community section.wrapper div.details h5 {
     color: white;
     font-size: 18px;
-    padding-top: 100px;
+    /* padding-top: 100px; */
 }
 #community section.wrapper div.details h1 {
     font-weight: 500;
@@ -888,20 +897,20 @@ body {
     position: absolute;
     margin-left: 162px;
 }
-#footer {
+/* #footer {
     height: 100vh;
 }
 #footer section.wrapper {
     display: flex;
     justify-content: space-between;
     /* margin: 0 auto; */
-    align-items: center;
+/* align-items: center;
     margin-top: 62px;
 }
 #footer section.wrapper section.detla ul li h4 a span img {
     /* display: block;
     width: 100%; */
-}
+/* }
 #footer section.wrapper section.delta ul li h5 {
     font-size: 18px;
     width: 46%;
@@ -911,4 +920,80 @@ body {
 #footer section.wrapper ul li.h3 h3 {
     font-size: 19px;
     font-weight: 500
+} */
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+footer section.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 34px;
+    border-top: 1px solid black;
+}
+footer section.top div.left span {
+    display: inline-block;
+    width: 24%;
+}
+footer section.top div.left span img {
+    display: block;
+    width: 100%;
+}
+footer section.top div.left {
+    width: 39%;
+    line-height: 36px;
+}
+footer section.top div.left h4 {
+    width: 54%;
+}
+
+footer section.top div.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 10px;
+    gap: 116px;
+    line-height: 44px;
+}
+footer section.top div h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+footer section.top div h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+footer section.top div.right {
+    line-height: 56px;
+}
+footer section.top div.right div.number {
+    align-items: center;
+    /* margin: 0 auto;
+    display: flex;
+    justify-content: space-between; */
+}
+footer section.top div.right div.socialmedia a img {
+    margin-right: 29px;
+}
+footer section.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+footer section.bottom h4 {
+    font-weight: 500;
+}
+footer section.bottom div.last {
+    display: flex;
+    align-items: center;
+}
+footer section.bottom div.last p {
+    margin-right: 22px;
+    font-weight: 500;
+}
+footer section.bottom div.last p:last-child {
+    margin-right: 0px;
 }
