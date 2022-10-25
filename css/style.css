@@ -927,6 +927,7 @@ body {
 } */
 footer {
     display: flex;
+    padding: 30px 0;
     justify-content: space-between;
 }
 footer section.top {
@@ -1020,12 +1021,19 @@ footer section.bottom div.last p:last-child {
     #spotlight section.wrapper section.left ul li a.button {
         padding: 14px 18px;
     }
+    #about section.wrapper h2 {
+        width: 53%;
+    }
     #about section.wrapper div.box div.right div.green-box {
         bottom: 1px;
         left: 578px;
     }
+
     #services section.wrapper section.top h2 {
         width: 27%;
+    }
+    #services section.wrapper section.top h3 {
+        margin-top: 56px;
     }
     #services section.wrapper section.bottom a.button {
         padding: 15px 53px;
@@ -1040,7 +1048,7 @@ footer section.bottom div.last p:last-child {
         gap: 93px;
     }
     #contact section.wrapper section.right div.top h2 {
-        width: 56%;
+        width: 53%;
         font-size: 37px;
         font-weight: 600;
     }
@@ -1050,5 +1058,194 @@ footer section.bottom div.last p:last-child {
     }
     #contact section.wrapper section.right {
         margin-right: 5px;
+    }
+    #testimonials section.top h3 {
+        margin-top: 213px;
+    }
+    #contact section.wrapper {
+        margin-top: 105px;
+    }
+    #contact section.wrapper section.right div.middle ul {
+        margin-right: 92px;
+    }
+    #contact section.wrapper section.right div.bottom div.one a {
+        padding: 13px 38px;
+        margin-left: 60%;
+        margin-top: 23px;
+    }
+    #community section.wrapper div.details form input {
+        padding: 14px 13px;
+    }
+    footer section.top div.middle {
+        margin-left: -74px;
+    }
+}
+@media all and (max-width: 1280px) {
+    #home header nav.middle ul li a {
+        font-size: 14px;
+    }
+    #spotlight {
+        background-size: 471px;
+        background-position: right 47px bottom 87px;
+    }
+    #spotlight section.wrapper section.left h2 {
+        width: 44%;
+        font-size: 40px;
+    }
+    #spotlight section.wrapper section.left h4 {
+        font-size: 18px;
+        width: 46%;
+        margin-bottom: 56px;
+    }
+    #spotlight section.wrapper section.left ul li a.button {
+        padding: 12px 28px;
+    }
+    #spotlight section.wrapper section.left ul {
+        width: 44%;
+    }
+    #about section.wrapper h2 {
+        font-size: 32px;
+        line-height: 54px;
+        width: 62%;
+    }
+    #about section.wrapper div.box div.right {
+        width: 100%;
+    }
+    #about section.wrapper div.box div.right p {
+        font-size: 16px;
+        margin-bottom: 19px;
+    }
+    #about section.wrapper div.box div.left img {
+        width: 107%;
+    }
+    #about section.wrapper div.box div.right div.green-box {
+        bottom: -3px;
+        left: 437px;
+    }
+    #about section.wrapper div.box div.right div.green-box {
+        width: 48%;
+    }
+    #services section.wrapper section.top h2 {
+        width: 30%;
+    }
+    #services section.wrapper section.middle div.service {
+        width: 43%;
+    }
+    #services section.wrapper section.bottom h4 {
+        font-size: 20px;
+        width: 47%;
+    }
+    #services section.wrapper section.bottom a.button {
+        padding: 17px 57px;
+        width: 24%;
+        font-size: 12px;
+    }
+    #pricing section.wrapper section.top div.content button {
+        width: 24%;
+        padding: 8px;
+    }
+    #pricing section.wrapper section.top div.plans h3 {
+        font-size: 24px;
+
+        margin-top: 13px;
+    }
+    #pricing section.wrapper section.top div.plans div.basic {
+        width: 27%;
+        border-radius: 14px;
+        padding-bottom: 20px;
+    }
+    #pricing section.wrapper section.top div.plans div.professional {
+        width: 27%;
+        border-radius: 14px;
+        padding-bottom: 20px;
+    }
+    #pricing section.wrapper section.top div.plans div.ultimate {
+        width: 27%;
+        border-radius: 14px;
+        padding-bottom: 20px;
+    }
+    #pricing section.wrapper section.top div.plans a.choose-plan button {
+        font-size: 18px;
+        width: 87%;
+
+        margin-left: 5%;
+        margin-top: 7%;
+        padding: 4;
+        padding: 3%;
+        border-radius: 2px;
+    }
+    #testimonials section.middle {
+        width: 98%;
+        gap: 93px;
+        margin: 0 auto;
+    }
+    #testimonials section.middle div ul {
+        width: 94%;
+    }
+    #testimonials section.middle div ul li img {
+        width: 74%;
+    }
+    #testimonials section.middle div ul li h3 {
+        font-size: 16px;
+    }
+    #testimonials section.middle div ul li p {
+        font-size: 10px;
+    }
+    #contact section.wrapper section.right div.top h2 {
+        width: 74%;
+        font-size: 30px;
+    }
+    #contact section.wrapper section.right div.middle {
+        margin-top: 46px;
+        align-items: stretch;
+    }
+    #contact section.wrapper section.left span img {
+        width: 97%;
+        margin-top: 147px;
+    }
+    #contact section.wrapper section.right div.middle ul li p {
+        color: gray;
+        width: 165px;
+    }
+    #contact section.wrapper section.right div.bottom div.one a {
+        padding: 13px 31px;
+        margin-left: 60%;
+        margin-top: 36px;
+    }
+    #community section.wrapper div.details form input {
+        border-radius: 18px;
+        padding: 15px 16px;
+        width: 44%;
+    }
+    #community section.wrapper div.details form button {
+        border-radius: 34px;
+        padding: 16px 46px;
+        margin-left: 165px;
+    }
+    footer section.top {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-top: 44px;
+    }
+    footer section.top div.middle {
+        margin-left: 10px;
+        gap: 97px;
+        line-height: 37px;
+        margin-right: 80px;
+    }
+    footer section.top div h3 {
+        font-size: 13px;
+    }
+    footer section.top div.right a img {
+        display: none;
+    }
+    footer section.top div.right a {
+        font-size: 14px;
+    }
+}
+@media all and (max-width: 1280px) {
+    #spotlight section.wrapper section.left ul li a {
+        font-size: 12px;
     }
 }
