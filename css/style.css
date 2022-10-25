@@ -830,4 +830,46 @@ body {
 #contact section.wrapper section.right {
     margin-right: 60px;
 }
-#community
+#community {
+    height: 100vh;
+    background: #fffcf3;
+}
+#community section.wrapper {
+    background: black;
+    height: 56%;
+    border-radius: 20px;
+    margin-top: 100px;
+    display: block;
+}
+#community section.wrapper div.details {
+    /* display: block;
+    align-items: center; */
+    text-align: center;
+    /* margin: 0 auto; */
+}
+#community section.wrapper div.details h5 {
+    color: white;
+    font-size: 18px;
+    padding-top: 100px;
+}
+#community section.wrapper div.details h1 {
+    font-weight: 500;
+    font-size: 28px;
+    color: white;
+}
+#community section.wrapper div.details p {
+    color: white;
+    font-size: 11px;
+    margin-top: 30px;
+}
+#community section.wrapper div.details a.button {
+    border: 1px solid gray;
+    color: gray;
+}
+#community section.wrapper div.details a button {
+    display: block;
+    background: #d5fa52;
+    font-weight: bold;
+    border-radius: 31px;
+    padding: 15px 45px;
+}
