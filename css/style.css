@@ -416,18 +416,140 @@ body {
     width: 40%;
 }
 #services section.wrapper section.bottom a {
-    width: 16%;
-    height: 48px;
+    width: 24%;
+    height: 52px;
 }
 #services section.wrapper section.bottom a.button {
     display: inline-block;
     background: black;
     color: #fff;
     border-radius: 3px;
-    padding: 10px 34px;
+    padding: 14px 80px;
     font-weight: bold;
 }
 #pricing {
     background: #fffcf3;
     height: 100vh;
+}
+#pricing section.wrapper section.top {
+    margin-top: 100px;
+}
+#pricing section.wrapper section.top h4 {
+    color: gray;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+#pricing section.wrapper section.top h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 22px;
+}
+#pricing section.wrapper section.top div.content {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-top: 25px;
+}
+#pricing section.wrapper section.top div.content h4 {
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+}
+#pricing section.wrapper section.top div.content p {
+    color: gray;
+    font-weight: 500;
+    font-size: 17px;
+}
+#pricing section.wrapper section.top div.content button {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    width: 20%;
+    padding: 8px;
+    background-color: #f4f405;
+    text-align: center;
+    border-radius: 16px;
+}
+#pricing section.wrapper section.top div.plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+#pricing section.wrapper section.top div.plans div.basic {
+    background: #fff;
+    color: grey;
+    width: 22%;
+}
+#pricing section.wrapper section.top div.plans div.professional {
+    background: #fff;
+    color: grey;
+    width: 22%;
+}
+#pricing section.wrapper section.top div.plans div.ultimate {
+    background: #fff;
+    color: grey;
+    width: 22%;
+}
+
+#pricing section.wrapper section.top div.plans h3 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+#pricing section.wrapper section.top div.plans div.amount div.amount-per-month {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    /* margin-left: 20%;
+    font-size: 20px; */
+}
+#pricing
+    section.wrapper
+    section.top
+    div.plans
+    div.amount
+    div.amount-per-month
+    b {
+    font-size: 25px;
+    font-weight: bold;
+}
+#pricing section.wrapper section.top div.plans nav {
+    margin-top: 5%;
+}
+#pricing section.wrapper section.top div.plans nav ul {
+    list-style: none;
+    text-align: center;
+}
+/* #pricing section.wrapper section.top div.plans nav ul li a img {
+    color: #d5fa52;
+} */
+#pricing section.wrapper section.top div.plans div.offer-percentage button {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    padding: 4px;
+    background-color: #d4cece;
+    text-align: center;
+    margin-left: 26%;
+    margin-top: 12%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+#pricing section.wrapper section.top div.plans a.choose-plan button {
+    color: #000;
+    font-size: 20px;
+    width: 90%;
+    background-color: gray;
+    margin-left: 5%;
+    margin-top: 7%;
+    padding: 4;
+    padding: 5%;
+    border-radius: 1px;
 }
