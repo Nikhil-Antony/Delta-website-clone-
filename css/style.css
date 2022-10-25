@@ -163,7 +163,7 @@ body {
     align-items: center;
 
     justify-content: space-between;
-    width: 31%;
+    width: 34%;
 }
 #spotlight section.wrapper section.left ul li {
 }
@@ -180,6 +180,10 @@ body {
     padding: 14px 38px;
     border-radius: 3px;
     font-weight: 500;
+}
+#spotlight section.wrapper section.left ul li a span {
+    display: inline-block;
+    width: 45px;
 }
 #spotlight section.wrapper section.left ul li a img.play-button {
     width: 100%;
@@ -996,4 +1000,55 @@ footer section.bottom div.last p {
 }
 footer section.bottom div.last p:last-child {
     margin-right: 0px;
+}
+@media all and (max-width: 1440px) {
+    #spotlight {
+        background-size: 520px;
+        background-position: right 140px bottom 40px;
+    }
+
+    #spotlight section.wrapper section.left h2 {
+        font-size: 46px;
+        width: 35%;
+    }
+    #spotlight section.wrapper section.left h4 {
+        width: 37%;
+    }
+    #spotlight section.wrapper section.left ul li {
+        margin-right: 10px;
+    }
+    #spotlight section.wrapper section.left ul li a.button {
+        padding: 14px 18px;
+    }
+    #about section.wrapper div.box div.right div.green-box {
+        bottom: 1px;
+        left: 578px;
+    }
+    #services section.wrapper section.top h2 {
+        width: 27%;
+    }
+    #services section.wrapper section.bottom a.button {
+        padding: 15px 53px;
+        width: 19%;
+        font-size: 12px;
+    }
+    #services section.wrapper section.bottom h4 {
+        width: 46%;
+    }
+    #testimonials section.middle {
+        width: 107%;
+        gap: 93px;
+    }
+    #contact section.wrapper section.right div.top h2 {
+        width: 56%;
+        font-size: 37px;
+        font-weight: 600;
+    }
+    #contact section.wrapper section.left span img {
+        width: 89%;
+        margin-top: 137px;
+    }
+    #contact section.wrapper section.right {
+        margin-right: 5px;
+    }
 }
