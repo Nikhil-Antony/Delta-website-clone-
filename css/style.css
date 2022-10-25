@@ -750,3 +750,9 @@ body {
 #testimonials section.middle div.payoneer ul li p {
     color: grey;
 } */
+#contact {
+}
+#contact section.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
