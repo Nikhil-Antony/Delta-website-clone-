@@ -116,7 +116,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* font-weight: 600; */
 }
 #home header nav.right ul li {
     margin-right: 20px;
@@ -124,15 +123,22 @@ body {
 #home header nav.right ul li:last-child {
     margin-right: 0px;
 }
-/* #home header nav.right ul li a {
-    font-weight: bold;
-} */
+
 #home header nav.right ul li a.button {
     border: 1px solid black;
     border-radius: 5px;
     display: inline-block;
     padding: 10px 34px;
     font-weight: bold;
+}
+#home header div.hamburg-menu {
+    width: 3%;
+    height: 30%;
+    display: none;
+}
+#home header div.hamburg-menu img {
+    width: 100%;
+    display: block;
 }
 #spotlight {
     background: url(../Assets/Landing-pic.jpg) no-repeat;
@@ -246,10 +252,6 @@ body {
     margin-top: 40px;
 }
 #about section.wrapper div.box div.left img {
-    /* max-width: 560px;git 
-    border-radius: 12px;
-    margin-top: 40px;
-    margin-right: 40px; */
     display: inline-block;
     width: 100%;
     border-radius: 12px;
@@ -334,7 +336,6 @@ body {
     margin-top: 100px;
 }
 #services section.wrapper section.middle div.service {
-    /* height: 100%; */
     display: block;
     border: 2px solid gray;
     width: 30%;
@@ -344,38 +345,8 @@ body {
     padding: 2%;
     transition: transform 500ms;
 }
-/* #services section.wrapper section.middle div.service div.image1 {
-    border: 1px solid black;
-    background: #000;
-    height: 34%;
-    width: 27%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-}
-#services section.wrapper section.middle div.service img.web-development {
-    /* border: 1px solid #ffff;
-    background: bisque;
-    height: 36%;
-    width: 14%; */
-/* display: flex;
-  
-    background: white;
-    border-radius: 10px;
-    width: 25px;
-    filter: invert(1);
-    height: 34%;
-    width: 27%; */
-/* display: flex;
-    background: white;
-    border-radius: 44px;
-    width: 27px;
-    filter: invert(1);
-    width: 30px;
-    border: 1px solid #fff;
-} */
-*/ #services section.wrapper section.middle div.service h2 {
+
+#services section.wrapper section.middle div.service h2 {
     font-weight: 600;
     margin-top: 10px;
 
@@ -394,18 +365,10 @@ body {
     font-weight: 600;
     text-decoration: underline;
 }
-/* #services section.wrapper section.middle:hover div.service {
-    display: block;
-    border: 2px solid gray;
-    width: 30%;
-    margin-bottom: 30px;
-    border-radius: 4px;
-    padding: 2%;
-    background: yellowgreen;
-} */
+
 #services section.wrapper section.middle div.service:hover {
     background-color: yellowgreen;
-    /* width: 28%; */
+
     display: block;
     transform: translateY(-30px);
 }
@@ -515,8 +478,6 @@ body {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    /* margin-left: 20%;
-    font-size: 20px; */
 }
 #pricing
     section.wrapper
@@ -535,9 +496,7 @@ body {
     list-style: none;
     text-align: center;
 }
-/* #pricing section.wrapper section.top div.plans nav ul li a img {
-    color: #d5fa52;
-} */
+
 #pricing section.wrapper section.top div.plans div.offer-percentage button {
     color: #000;
     font-size: 20px;
@@ -715,54 +674,8 @@ body {
     color: grey;
     font-size: 13px;
 }
-/* #testimonials section.middle div.stripe {
-}
-#testimonials section.middle div.stripe ul {
-    display: flex;
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 88px;
-    margin-bottom: 70px;
-}
-#testimonials section.middle div.stripe ul li.stripe-one {
-    border-radius: 50%;
-    border: 1px solid #d5fa52;
-    padding: 9px;
-}
-#testimonials section.middle div.stripe ul li h3 {
-    font-weight: bold;
-}
-#testimonials section.middle div.stripe ul li p {
-    color: grey;
-}
-#testimonials section.middle div.payoneer {
-}
-#testimonials section.middle div.payoneer ul {
-    display: flex;
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 88px;
-    margin-bottom: 70px;
-}
-#testimonials section.middle div.payoneer ul li.payoneer-one {
-    border-radius: 50%;
-    border: 1px solid #d5fa52;
-    padding: 9px;
-}
-#testimonials section.middle div.payoneer ul li h3 {
-    font-weight: bold;
-}
-#testimonials section.middle div.payoneer ul li p {
-    color: grey;
-} */
+
 #contact {
-    /* height: 100vh; */
-    /* display: flex;
-    justify-content: space-between; */
     padding-bottom: 40px;
 }
 #contact section.wrapper {
@@ -773,7 +686,7 @@ body {
 #contact section.wrapper section.left span img {
     width: 78%;
     display: inline-block;
-    /* height: 30%; */
+
     margin-top: 63px;
 }
 #contact section.wrapper section.right div.top h4 {
@@ -790,7 +703,7 @@ body {
     display: flex;
 
     align-items: center;
-    /* justify-content: space-between; */
+
     margin-top: 10px;
 }
 
@@ -841,7 +754,6 @@ body {
     margin-right: 60px;
 }
 #community {
-    /* height: 100vh; */
     background: #fffcf3;
     margin: 0 auto;
     display: flex;
@@ -856,17 +768,14 @@ body {
     display: block;
 }
 #community section.wrapper div.details {
-    /* display: block;
-    align-items: center; */
     text-align: center;
-    /* margin: 0 auto; */
+
     height: 353px;
     padding: 50px;
 }
 #community section.wrapper div.details h5 {
     color: white;
     font-size: 18px;
-    /* padding-top: 100px; */
 }
 #community section.wrapper div.details h1 {
     font-weight: 500;
@@ -901,30 +810,7 @@ body {
     position: absolute;
     margin-left: 162px;
 }
-/* #footer {
-    height: 100vh;
-}
-#footer section.wrapper {
-    display: flex;
-    justify-content: space-between;
-    /* margin: 0 auto; */
-/* align-items: center;
-    margin-top: 62px;
-}
-#footer section.wrapper section.detla ul li h4 a span img {
-    /* display: block;
-    width: 100%; */
-/* }
-#footer section.wrapper section.delta ul li h5 {
-    font-size: 18px;
-    width: 46%;
-}
-#footer section.wrapper section.detla ul {
-}
-#footer section.wrapper ul li.h3 h3 {
-    font-size: 19px;
-    font-weight: 500
-} */
+
 footer {
     display: flex;
     padding: 30px 0;
@@ -976,9 +862,10 @@ footer section.top div.right {
 }
 footer section.top div.right div.number {
     align-items: center;
-    /* margin: 0 auto;
+}
+footer section.top div.right div.number a {
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between; */
 }
 footer section.top div.right div.socialmedia a img {
     margin-right: 29px;
@@ -1270,8 +1157,8 @@ footer section.bottom div.last p:last-child {
         margin-right: -49px;
     }
     #home header nav.middle ul li a {
-        font-size: 13px;
-        margin-left: 1px;
+        font-size: 14px;
+        margin-left: 2px;
     }
     #home header div.left h1 a span {
         width: 98%;
@@ -1388,6 +1275,9 @@ footer section.bottom div.last p:last-child {
     #home header nav.right ul li a.button {
         padding: 4px 2px;
         font-size: 13px;
+    }
+    #home header nav.middle ul li {
+        margin-right: 13px;
     }
     #home header nav.right ul li {
         font-size: 16px;
@@ -1550,8 +1440,8 @@ footer section.bottom div.last p:last-child {
 }
 @media all and (max-width: 768px) {
     #home header nav.middle ul li a {
-        font-size: 11px;
-        margin-left: -1px;
+        font-size: 12px;
+        margin-left: 1px;
     }
     #home header nav.middle {
         width: 68%;
@@ -1758,10 +1648,7 @@ footer section.bottom div.last p:last-child {
         line-height: 46px;
         margin-top: -35px;
     }
-    /* #spotlight {
-        background-size: 267px;
-        background-position: right -46px bottom 203px;
-    } */
+
     #spotlight {
         background-size: 219px;
         background-position: right 15px bottom 252px;
@@ -1777,6 +1664,9 @@ footer section.bottom div.last p:last-child {
     }
     #brands {
         margin-top: -106px;
+    }
+    #about {
+        background: none;
     }
     #about section.wrapper h2 {
         width: 99%;
@@ -1836,6 +1726,9 @@ footer section.bottom div.last p:last-child {
         margin-left: 65%;
         margin-top: 29px;
     }
+    #community {
+        background: none;
+    }
     #community section.wrapper div.details {
         text-align: center;
 
@@ -1877,6 +1770,11 @@ footer section.bottom div.last p:last-child {
 
     #home header div.left h1 a span img {
         width: 77%;
+    }
+    #home header div.hamburg-menu {
+        display: block;
+        width: 19%;
+        height: 28%;
     }
     #spotlight {
         background: none;
