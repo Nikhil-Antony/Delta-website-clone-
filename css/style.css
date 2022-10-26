@@ -2089,10 +2089,25 @@ footer section.bottom div.last p:last-child {
         margin-bottom: 54px;
     }
     #contact section.wrapper section.right div.bottom div.one a {
-        padding: 0px -2px;
         margin-left: 5%;
         margin-top: 30px;
         margin-right: 145px;
-        font-size: 15px;
+        font-size: 13px;
+    }
+    #community section.wrapper div.details h5 {
+        color: white;
+        font-size: 18px;
+        padding-top: 0px;
+    }
+    #community section.wrapper div.details {
+        text-align: center;
+        height: 382px;
+        padding: 42px;
+    }
+    footer section.top div.middle {
+        margin-left: 2px;
+        gap: 59px;
+        line-height: 31px;
+        margin-right: 14px;
     }
 }
