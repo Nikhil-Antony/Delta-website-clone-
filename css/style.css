@@ -1504,4 +1504,49 @@ footer section.bottom div.last p:last-child {
     #pricing section.wrapper section.top div.plans nav ul {
         font-size: 15px;
     }
+    #testimonials section.middle {
+        width: 100%;
+        gap: 64px;
+    }
+    #testimonials section.top p {
+        font-size: 32px;
+
+        margin-bottom: 87px;
+    }
+    #testimonials section.middle div ul li h3 {
+        font-size: 12px;
+    }
+    #contact section.wrapper {
+        margin-top: -40px;
+        flex-wrap: wrap;
+    }
+    #contact section.wrapper section.left span img {
+        width: 83%;
+        margin-top: 168px;
+        margin-bottom: 52px;
+    }
+    footer section.top div.left h4 {
+        display: none;
+    }
+    #contact section.wrapper section.right div.bottom div.one a {
+        padding: 8px 27px;
+        margin-left: 65%;
+        margin-top: 27px;
+    }
+    #community section.wrapper div.details form input {
+        border-radius: 18px;
+        padding: 15px 8px;
+        width: 47%;
+    }
+    footer section.top div.left span img {
+        display: none;
+    }
+    footer section.top div.middle {
+        margin-left: 11px;
+        gap: 123px;
+        line-height: 36px;
+        margin-right: 115px;
+    }
+}
+@media all and (max-width: 768px) {
 }
