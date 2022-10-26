@@ -1245,7 +1245,70 @@ footer section.bottom div.last p:last-child {
     }
 }
 @media all and (max-width: 1280px) {
+    #spotlight {
+        background-size: 423px;
+        background-position: right 40px bottom 145px;
+    }
     #spotlight section.wrapper section.left ul li a {
         font-size: 12px;
+    }
+    #spotlight section.wrapper section.left ul {
+        width: 40%;
+    }
+    #spotlight section.wrapper section.left h2 {
+        width: 51%;
+        font-size: 37px;
+    }
+    #spotlight section.wrapper section.left h4 {
+        font-size: 17px;
+        width: 46%;
+        margin-bottom: 33px;
+    }
+}
+@media all and (max-width: 1050px) {
+    #home header nav.right ul {
+        margin-right: -49px;
+    }
+    #home header nav.middle ul li a {
+        font-size: 13px;
+        margin-left: 1px;
+    }
+    #home header div.left h1 a span {
+        width: 98%;
+    }
+    #home header nav.right ul li {
+        margin-right: 10px;
+    }
+    #home header nav.right ul li a.button {
+        padding: 6px 20px;
+    }
+    #spotlight section.wrapper section.left ul {
+        width: 38%;
+    }
+    #brands {
+        margin-top: 34px;
+    }
+    #about {
+        padding: 39px 0px 50px;
+    }
+    #services section.wrapper section.top h2 {
+        width: 31%;
+    }
+    #services section.wrapper section.bottom a.button {
+        padding: 16px 26px;
+        width: 19%;
+        font-size: 13px;
+    }
+    #pricing section.wrapper section.top div.content button {
+        font-size: 12px;
+        width: 25%;
+        padding: 8px;
+        border-radius: 16px;
+    }
+    #about section.wrapper div.box div.right div.green-box div.item h3 {
+        font-size: 36px;
+        font-weight: 500;
+        color: #000;
+        text-align: center;
     }
 }
