@@ -218,6 +218,7 @@ body {
     margin-right: 100px;
     align-items: center;
     width: 48%;
+    display: block;
 }
 #brands section.wrapper div.brands ul li {
 }
@@ -1665,9 +1666,14 @@ footer section.bottom div.last p:last-child {
     #brands {
         margin-top: -106px;
     }
-    #about {
-        background: none;
+    #brands section.wrapper div.brands ul {
+        margin: 25px 174px 62px 176px;
     }
+    #brands section.wrapper p {
+        font-size: 14px;
+        margin-right: 44px;
+    }
+
     #about section.wrapper h2 {
         width: 99%;
     }
@@ -1722,12 +1728,10 @@ footer section.bottom div.last p:last-child {
         margin-right: 36px;
     }
     #contact section.wrapper section.right div.bottom div.one a {
-        padding: 6px 3px;
-        margin-left: 65%;
+        padding: 8px 3px;
+        margin-left: 58%;
         margin-top: 29px;
-    }
-    #community {
-        background: none;
+        margin-right: 29px;
     }
     #community section.wrapper div.details {
         text-align: center;
@@ -1860,7 +1864,7 @@ footer section.bottom div.last p:last-child {
         font-size: 10px;
     }
     #pricing section.wrapper section.top h2 {
-        font-size: 21px;
+        font-size: 19px;
         margin-top: 30px;
     }
     #testimonials section.top p {
