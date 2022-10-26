@@ -1758,9 +1758,13 @@ footer section.bottom div.last p:last-child {
         line-height: 46px;
         margin-top: -35px;
     }
-    #spotlight {
+    /* #spotlight {
         background-size: 267px;
         background-position: right -46px bottom 203px;
+    } */
+    #spotlight {
+        background-size: 219px;
+        background-position: right 15px bottom 252px;
     }
     #spotlight section.wrapper section.left h4 {
         font-size: 14px;
@@ -1772,7 +1776,7 @@ footer section.bottom div.last p:last-child {
         margin-left: -6px;
     }
     #brands {
-        margin-top: -51px;
+        margin-top: -106px;
     }
     #about section.wrapper h2 {
         width: 99%;
@@ -1816,5 +1820,279 @@ footer section.bottom div.last p:last-child {
         width: 98%;
         margin-top: 511px;
         margin-bottom: 61px;
+    }
+    #contact section.wrapper section.right div.bottom div.details {
+        width: 94%;
+    }
+    #contact section.wrapper section.right div.bottom div.one ul li {
+        width: 94%;
+        height: 38px;
+    }
+    #contact section.wrapper section.right div.middle ul {
+        margin-right: 36px;
+    }
+    #contact section.wrapper section.right div.bottom div.one a {
+        padding: 6px 3px;
+        margin-left: 65%;
+        margin-top: 29px;
+    }
+    #community section.wrapper div.details {
+        text-align: center;
+
+        height: 353px;
+        padding: 42px;
+    }
+    #community section.wrapper div.details form input {
+        border-radius: 21px;
+        padding: 15px 17px;
+        width: 92%;
+    }
+    footer section.top div.middle {
+        margin-left: -7px;
+        gap: 67px;
+        line-height: 29px;
+        margin-right: 25px;
+    }
+    footer section.top div.right {
+        line-height: 39px;
+    }
+    footer section.top div.right a {
+        font-size: 13px;
+    }
+    footer section.top div.middle {
+        margin-left: -7px;
+        gap: 39px;
+        line-height: 29px;
+        margin-right: 17px;
+    }
+    footer section.bottom {
+        margin-top: 37px;
+        font-size: 12px;
+    }
+}
+@media all and (max-width: 480px) {
+    #home header div.left {
+        width: 100%;
+    }
+
+    #home header div.left h1 a span img {
+        width: 77%;
+    }
+    #spotlight {
+        background: none;
+    }
+    #home header nav.right {
+        display: none;
+    }
+    #home header div.left h1 a span {
+        width: 100%;
+    }
+    #spotlight section.wrapper section.left h2 {
+        width: 100%;
+        font-size: 38px;
+        line-height: 41px;
+        margin-top: -35px;
+    }
+    #spotlight section.wrapper section.left h4 {
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 28px;
+    }
+    #spotlight section.wrapper section.left ul {
+        width: 91%;
+        margin-left: -6px;
+    }
+    #spotlight section.wrapper section.left ul li a {
+        display: none;
+    }
+    #spotlight section.wrapper section.left ul li a.button {
+        padding: 14px 38px;
+        font-size: 16px;
+    }
+    #spotlight section.wrapper section.left h2 {
+        margin-top: -67px;
+    }
+    #brands {
+        margin-top: -200px;
+    }
+    #brands section.wrapper p {
+        display: none;
+    }
+    #brands {
+        margin-top: -246px;
+    }
+    #brands section.wrapper div.brands ul li {
+        width: 37%;
+        margin-bottom: 27px;
+    }
+    #brands section.wrapper div.brands ul {
+        width: 66%;
+        margin: 0 auto;
+    }
+    #about {
+        padding: 20px 0px 50px;
+    }
+    #about section.wrapper h2 {
+        font-size: 16px;
+        line-height: 31px;
+    }
+    #about section.wrapper div.box div.right {
+        width: 100%;
+    }
+    #about section.wrapper div.box div.right p {
+        font-size: 12px;
+    }
+    #about section.wrapper div.box div.right ul li {
+        line-height: 29px;
+        font-size: 15px;
+    }
+    #about section.wrapper div.box div.right div.green-box div.item h3 {
+        font-size: 20px;
+    }
+    #services section.wrapper section.top h2 {
+        width: 84%;
+    }
+    #services section.wrapper section.bottom h4 {
+        font-size: 12px;
+        width: 53%;
+    }
+    #services section.wrapper section.bottom a.button {
+        padding: 12px 13px;
+        width: 36%;
+        font-size: 10px;
+    }
+    #pricing section.wrapper section.top h2 {
+        font-size: 21px;
+        margin-top: 30px;
+    }
+    #testimonials section.top p {
+        font-size: 28px;
+        margin-bottom: 73px;
+    }
+    #contact section.wrapper section.left span img {
+        width: 106%;
+        margin-top: 543px;
+        margin-bottom: 69px;
+    }
+    #contact section.wrapper section.right div.top h2 {
+        width: 77%;
+        font-size: 28px;
+    }
+    #contact section.wrapper section.right div.middle {
+        margin-top: 46px;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+    #contact section.wrapper section.right div.bottom div.details {
+        width: 87%;
+    }
+    #contact section.wrapper section.right div.bottom div.one ul li {
+        width: 87%;
+        height: 40px;
+    }
+    #contact section.wrapper section.right div.bottom div.one a {
+        padding: 8px 11px;
+        margin-left: 1%;
+        margin-top: 29px;
+        margin-right: 160px;
+    }
+    #community section.wrapper {
+        height: 57%;
+        border-radius: 29px;
+        margin-top: 12px;
+    }
+    #community section.wrapper div.details h1 {
+        font-size: 20px;
+
+        margin-top: 21px;
+    }
+    #community section.wrapper div.details p {
+        font-size: 11px;
+        margin-top: 27px;
+    }
+    #community section.wrapper div.details form button {
+        padding: 8px 18px;
+        margin-left: -5px;
+        margin-top: 33px;
+    }
+    #community section.wrapper div.details form input {
+        border-radius: 21px;
+        padding: 6px 33px;
+        width: 90%;
+        margin-top: -12px;
+    }
+    footer section.top {
+        padding-top: 9px;
+        flex-wrap: wrap;
+    }
+    footer section.top div.middle {
+        margin-left: 2px;
+        gap: 93px;
+        line-height: 31px;
+        margin-right: 15px;
+    }
+    footer section.top div.right {
+        line-height: 39px;
+        margin-top: 35px;
+    }
+    footer section.bottom h4 {
+        font-weight: 500;
+        font-size: 11px;
+    }
+}
+@media all and (max-width: 360px) {
+    #spotlight section.wrapper section.left h2 {
+        width: 100%;
+        font-size: 23px;
+        line-height: 34px;
+        margin-top: -89px;
+        font-weight: 700;
+    }
+    #spotlight section.wrapper section.left ul li a.button {
+        padding: 4px 21px;
+        font-size: 15px;
+    }
+    #brands {
+        margin-top: -295px;
+    }
+    #about section.wrapper div.box div.right ul li {
+        line-height: 26px;
+        font-size: 14px;
+    }
+    #about section.wrapper div.box div.right div.green-box div.item h5 {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    #services section.wrapper section.top h2 {
+        width: 95%;
+        font-size: 28px;
+    }
+    #services section.wrapper section.bottom h4 {
+        font-size: 10px;
+        width: 53%;
+    }
+    #services section.wrapper section.bottom a.button {
+        padding: 12px 7px;
+        width: 35%;
+        font-size: 10px;
+    }
+    #services section.wrapper section.bottom a.button {
+        padding: 13px 6px;
+        width: 35%;
+        font-size: 10px;
+    }
+    #pricing section.wrapper section.top {
+        margin-top: 53px;
+    }
+    #testimonials section.top p {
+        font-size: 23px;
+        margin-bottom: 54px;
+    }
+    #contact section.wrapper section.right div.bottom div.one a {
+        padding: 0px -2px;
+        margin-left: 5%;
+        margin-top: 30px;
+        margin-right: 145px;
+        font-size: 15px;
     }
 }
