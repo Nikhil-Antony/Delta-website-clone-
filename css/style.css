@@ -1549,4 +1549,119 @@ footer section.bottom div.last p:last-child {
     }
 }
 @media all and (max-width: 768px) {
+    #home header nav.middle ul li a {
+        font-size: 11px;
+        margin-left: -1px;
+    }
+    #home header nav.middle {
+        width: 68%;
+    }
+    #home header nav.right ul li {
+        width: 50px;
+        font-size: 15px;
+        font-size: -16px;
+    }
+    #home header nav.right ul li:last-child {
+        margin-right: 19px;
+    }
+    #home header nav.right ul li a.button {
+        padding: 0px 2px;
+        font-size: 13px;
+        width: 57px;
+    }
+    #home header div.left h1 a span img {
+        width: 95%;
+    }
+    #home header nav.middle ul {
+        margin-left: 13px;
+    }
+    #spotlight section.wrapper section.left h2 {
+        width: 59%;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    #spotlight {
+        background-size: 356px;
+        background-position: right -19px bottom 180px;
+    }
+    #spotlight section.wrapper section.left h4 {
+        font-size: 16px;
+        width: 59%;
+        margin-bottom: 27px;
+    }
+    #spotlight section.wrapper section.left ul {
+        width: 46%;
+    }
+    #spotlight section.wrapper section.left ul li a.button {
+        padding: 9px 6px;
+    }
+    #brands section.wrapper p {
+        font-size: 17px;
+        margin-right: -77px;
+    }
+    #brands section.wrapper div.brands ul {
+        margin: 30px 0px 100px 105px;
+    }
+    #brands section.wrapper p {
+        font-size: 17px;
+        margin-right: -57px;
+    }
+    #about section.wrapper div.box {
+        flex-wrap: wrap;
+    }
+    #about section.wrapper h2 {
+        font-size: 21px;
+        line-height: 37px;
+        width: 74%;
+    }
+    #about section.wrapper div.box div.left img {
+        width: 100%;
+    }
+    #about section.wrapper div.box div.right p {
+        font-size: 16px;
+        margin-bottom: 29px;
+        margin-top: 33px;
+    }
+    #about section.wrapper div.box div.right div.green-box {
+        bottom: -41px;
+        left: 108px;
+        width: 68%;
+        height: 11%;
+    }
+    #services section.wrapper section.top h3 {
+        margin-top: 114px;
+    }
+    #services section.wrapper section.top h2 {
+        width: 80%;
+    }
+    #services section.wrapper section.middle {
+        margin-top: 60px;
+    }
+
+    #services section.wrapper section.middle div.service {
+        width: 100%;
+    }
+    #services section.wrapper section.middle div.service div.image {
+        display: flex;
+        justify-content: center;
+    }
+    #services section.wrapper section.middle {
+        text-align: center;
+    }
+    #services section.wrapper section.middle div.service div.image {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    #services section.wrapper section.bottom h4 {
+        font-size: 16px;
+        width: 38%;
+    }
+    #services section.wrapper section.bottom a.button {
+        padding: 11px 10px;
+        width: 24%;
+        font-size: 14px;
+    }
+    #services section.wrapper section.bottom a {
+        height: 40px;
+    }
 }
