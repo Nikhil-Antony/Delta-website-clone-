@@ -2110,4 +2110,8 @@ footer section.bottom div.last p:last-child {
         line-height: 31px;
         margin-right: 14px;
     }
+    footer section.bottom h4 {
+        font-weight: 500;
+        font-size: 8px;
+    }
 }
