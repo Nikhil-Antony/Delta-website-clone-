@@ -1306,9 +1306,202 @@ footer section.bottom div.last p:last-child {
         border-radius: 16px;
     }
     #about section.wrapper div.box div.right div.green-box div.item h3 {
-        font-size: 36px;
-        font-weight: 500;
-        color: #000;
-        text-align: center;
+        font-size: 33px;
+    }
+    #about section.wrapper div.box div.right div.green-box div.item {
+        padding: 5px;
+        height: 88px;
+    }
+    #pricing section.wrapper section.top div.plans {
+        margin-top: 45px;
+    }
+    #pricing section.wrapper section.top div.plans h3 {
+        font-size: 22px;
+        margin-top: 5px;
+    }
+    #pricing
+        section.wrapper
+        section.top
+        div.plans
+        div.amount
+        div.amount-per-month
+        b {
+        font-size: 23px;
+    }
+    #pricing section.wrapper section.top div.plans div.offer-percentage button {
+        font-size: 14px;
+
+        width: 45%;
+        padding: 4px;
+
+        margin-left: 27%;
+        margin-top: 10%;
+        border-radius: 20px;
+    }
+    #testimonials section.top h3 {
+        margin-top: 130px;
+    }
+    #testimonials section.middle div {
+        margin-right: 2px;
+    }
+    #testimonials section.middle div ul li p {
+        font-size: 9px;
+    }
+    #testimonials section.middle div ul li h3 {
+        font-size: 14px;
+    }
+    #testimonials section.middle div ul li img {
+        width: 67%;
+    }
+    #contact section.wrapper section.left span img {
+        width: 98%;
+        margin-top: 168px;
+    }
+    #contact section.wrapper section.right {
+        margin-right: -40px;
+    }
+    #contact section.wrapper section.right div.bottom div.one a {
+        padding: 9px 18px;
+        margin-left: 65%;
+        margin-top: 28px;
+    }
+    #community section.wrapper {
+        height: 68%;
+        border-radius: 29px;
+        margin-top: 42px;
+    }
+    footer section.top div.left h4 {
+        width: 65%;
+    }
+    footer section.top div.left span {
+        display: inline-block;
+        width: 36%;
+    }
+}
+@media all and (max-width: 980px) {
+    #home header nav.right ul {
+        margin-right: -73px;
+    }
+    #home header nav.middle ul li:last-child {
+        margin-right: 59px;
+    }
+    #home header nav.right ul li a.button {
+        padding: 4px 2px;
+        font-size: 13px;
+    }
+    #home header nav.right ul li {
+        font-size: 16px;
+    }
+    #home header div.left h1 a span img {
+        width: 69%;
+
+        margin-top: 13px;
+    }
+    #spotlight section.wrapper section.left {
+        margin-left: 12px;
+    }
+    #spotlight {
+        background-size: 400px;
+        background-position: right 3px bottom 130px;
+    }
+    #spotlight section.wrapper section.left h4 {
+        font-size: 15px;
+        width: 49%;
+        margin-bottom: 27px;
+    }
+    #spotlight section.wrapper section.left h2 {
+        margin-bottom: 16px;
+    }
+    #spotlight section.wrapper section.left ul li a.button {
+        padding: 8px 8px;
+    }
+    #brands section.wrapper p {
+        font-size: 22px;
+
+        margin-right: -64px;
+    }
+    #about {
+        padding: 11px 0px 65px;
+    }
+    #about section.wrapper h2 {
+        font-size: 21px;
+        line-height: 39px;
+        width: 73%;
+    }
+
+    #about section.wrapper div.box div.right {
+        width: 98%;
+    }
+    #about section.wrapper div.box div.left img {
+        width: 98%;
+    }
+    #about section.wrapper div.box div.right ul li {
+        line-height: 28px;
+        font-size: 17px;
+    }
+    #about section.wrapper div.box div.right div.green-box {
+        bottom: 8px;
+        left: 294px;
+    }
+    #about section.wrapper div.box div.right div.green-box div.item h5 {
+        font-size: 13px;
+        margin-right: 8px;
+    }
+
+    #about section.wrapper div.box div.right div.green-box div.item {
+        padding: 0px;
+        height: 75px;
+    }
+    #services section.wrapper section.top h2 {
+        width: 41%;
+    }
+    #services section.wrapper section.bottom h4 {
+        font-size: 17px;
+        width: 38%;
+    }
+    #services section.wrapper section.bottom a.button {
+        padding: 15px 15px;
+        width: 22%;
+        font-size: 14px;
+    }
+    #pricing section.wrapper section.top div.content button {
+        font-size: 11px;
+        width: 28%;
+        padding: 9px;
+    }
+    #pricing section.wrapper section.top div.content {
+        width: 53%;
+        margin-top: 25px;
+    }
+    #pricing section.wrapper section.top div.plans {
+        margin-top: 56px;
+    }
+    #pricing section.wrapper section.top div.plans div.professional {
+        width: 39%;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    #pricing section.wrapper section.top div.plans div.basic {
+        width: 36%;
+    }
+    #pricing section.wrapper section.top div.plans div.ultimate {
+        width: 36%;
+    }
+    #pricing
+        section.wrapper
+        section.top
+        div.plans
+        div.amount
+        div.amount-per-month
+        b {
+        font-size: 18px;
+    }
+    #pricing section.wrapper section.top div.plans h3 {
+        font-size: 26px;
+        margin-top: 5px;
+        margin-bottom: 13px;
+    }
+    #pricing section.wrapper section.top div.plans nav ul {
+        font-size: 15px;
     }
 }
