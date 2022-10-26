@@ -1664,4 +1664,157 @@ footer section.bottom div.last p:last-child {
     #services section.wrapper section.bottom a {
         height: 40px;
     }
+    #pricing section.wrapper section.top div.plans {
+        display: grid;
+        justify-content: center;
+    }
+    #pricing section.wrapper section.top div.plans div.basic {
+        width: 100%;
+        border: 1px solid black;
+    }
+    #pricing section.wrapper section.top div.plans div.professional {
+        width: 100%;
+        margin-left: -1px;
+        border: 1px solid black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #pricing section.wrapper section.top div.plans div.ultimate {
+        width: 100%;
+        border: 1px solid black;
+    }
+    #pricing {
+        margin-bottom: 780px;
+        background: none;
+    }
+    #pricing section.wrapper section.top div.plans h3 {
+        font-size: 26px;
+        margin-top: 31px;
+        margin-bottom: 11px;
+    }
+    #testimonials section.middle {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    #testimonials section.middle div ul {
+        width: 73%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    #testimonials section.middle div p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    #contact section.wrapper section.left span img {
+        width: 80%;
+        margin-top: 462px;
+        margin-bottom: 58px;
+    }
+    #contact section.wrapper section.right div.bottom div.one a {
+        padding: 8px 27px;
+        margin-left: 64%;
+        margin-top: 30px;
+    }
+    #community section.wrapper div.details form input {
+        border-radius: 19px;
+        padding: 15px 22px;
+        width: 70%;
+    }
+    footer section.top div.middle {
+        margin-left: -7px;
+        gap: 112px;
+        line-height: 33px;
+        margin-right: 83px;
+    }
+    footer section.bottom {
+        margin-top: 36px;
+        font-size: 13px;
+    }
+}
+@media all and (max-width: 640px) {
+    #home header nav.middle ul {
+        display: none;
+    }
+    #home header div.left {
+        width: 72%;
+    }
+    #home header nav.right ul {
+        margin-right: -12px;
+    }
+    #home header nav.right ul li a.button {
+        padding: 9px 20px;
+        font-size: 13px;
+        width: 104px;
+    }
+    #home header nav.right ul li {
+        width: 61px;
+        font-size: 18px;
+    }
+    #spotlight section.wrapper section.left h2 {
+        width: 94%;
+        font-size: 35px;
+        line-height: 46px;
+        margin-top: -35px;
+    }
+    #spotlight {
+        background-size: 267px;
+        background-position: right -46px bottom 203px;
+    }
+    #spotlight section.wrapper section.left h4 {
+        font-size: 14px;
+        width: 53%;
+        margin-bottom: 22px;
+    }
+    #spotlight section.wrapper section.left ul {
+        width: 60%;
+        margin-left: -6px;
+    }
+    #brands {
+        margin-top: -51px;
+    }
+    #about section.wrapper h2 {
+        width: 99%;
+    }
+    #about section.wrapper div.box div.left div.image {
+        width: 100%;
+    }
+    #about section.wrapper div.box div.right p {
+        font-size: 15px;
+        margin-bottom: 33px;
+        margin-top: 37px;
+    }
+    #about section.wrapper div.box div.right div.green-box {
+        bottom: -50px;
+        left: 52px;
+        width: 75%;
+        height: 11%;
+    }
+    #services section.wrapper section.top h2 {
+        width: 66%;
+    }
+    #services section.wrapper section.bottom h4 {
+        font-size: 14px;
+        width: 49%;
+    }
+    #services section.wrapper section.bottom a.button {
+        padding: 10px 10px;
+        width: 31%;
+        font-size: 13px;
+    }
+    #pricing section.wrapper section.top h2 {
+        font-size: 25px;
+        margin-top: 22px;
+    }
+    #pricing section.wrapper section.top div.content {
+        width: 70%;
+        margin-top: 25px;
+        gap: 9px;
+    }
+    #contact section.wrapper section.left span img {
+        width: 98%;
+        margin-top: 511px;
+        margin-bottom: 61px;
+    }
 }
